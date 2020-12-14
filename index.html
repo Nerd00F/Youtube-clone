@@ -3,63 +3,155 @@
 <html>
 
 <!-- Metadados da pagina -->
+
 <head>
-	<!-- Titulo da aba -->
-	<title>Youtube</title>
-	<!-- Caracteres Brasileiros -->
-	<meta charset="utf-8" />
-	<!-- Folha de estilos -->
-	<link href="style.css" rel="stylesheet" />
-	<!-- Icones -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Titulo da aba -->
+    <title>Youtube</title>
+    <!-- Caracteres Brasileiros -->
+    <meta charset="utf-8" />
+    <!-- Folha de estilos -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Icones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <!-- Corpo do documento -->
-<body>
-	<div class="container">
-		<!-- Menu superior -->
-		<div class="menu-superior">
-			<!-- Logo -->
-			<img class="yt-logo" src="./assets/Youtube-Logo.png"/>
-			<!-- Barra de pesquisa -->
-			<div class="barra-de-busca">
-				<input class="input" type="text" placeholder="Pesquisar">
-				<button class="lupa">
-					<i class="material-icons lupa">search</i>
-				</button>
-			</div>
-			<!-- Icones do usuario -->
-			<div class="user-icons">
-				<i class="material-icons">video_call</i>
-				<i class="material-icons">apps</i>
-				<i class="material-icons">notifications</i>
-				<i class="material-icons">account_circle</i>
-			</div>
-		</div>
-		<!-- Menu lateral -->
-		<div class="menu-lateral">
-			<p> <i class="material-icons">home</i> Início </p>
-			<p> <i class="material-icons">local_fire_department</i> Em alta </p>
-			<p> <i class="material-icons">subscriptions</i> Inscrições</p>
-			<hr>
-			<p> <i class="material-icons">video_library</i> Biblioteca</p>
-			<p> <i class="material-icons">history</i> Histórico</p>
-			<p> <i class="material-icons">slideshow</i> Seus vídeos</p>
-			<p> <i class="material-icons">watch_later</i> Assistir mais tarde</p>
-			<hr>
-			<h3>Inscrições</h3>
-			<p> <img class="inscricoes" src="assets/inscricao-1.jpg"> Curso em Vídeo</p>
-			<p> <img class="inscricoes" src="assets/inscricao-2.jpg"> Alura Cursos Online</p>
-			<p> <img class="inscricoes" src="assets/inscricao-3.jpg"> Cellbit</p>
-			<p> <img class="inscricoes" src="assets/inscricao-4.jpg"> Botão Select</p>
-			<p> <img class="inscricoes" src="assets/inscricao-5.jpg"> 52Kards</p>
-			<p> <img class="inscricoes" src="assets/inscricao-6.jpg"> Ciência todo dia</p>
-			<p> <img class="inscricoes" src="assets/inscricao-7.jpg"> Diolinux</p>
-			<p> <img class="inscricoes" src="assets/inscricao-8.jpg"> Alan Becker</p>
-    </div>
-		<!-- Grade de videos -->
-		<div class="conteudo">conteudo</div>
-	</div>
-</body>
 
-</html>
+<body>
+    <div class="container">
+        <!-- Menu superior -->
+        <div class="menu-superior">
+            <!-- Logo -->
+            <img class="yt-logo" src="./assets/Youtube-Logo.png" />
+            <!-- Barra de pesquisa -->
+            <div class="barra-de-busca">
+                <input class="input" type="text" placeholder="Pesquisar">
+                <button class="lupa">
+                    <i class="material-icons lupa">search</i>
+                </button>
+            </div>
+            <!-- Icones do usuario -->
+            <div class="user-icons">
+                <i class="material-icons">video_call</i>
+                <i class="material-icons">apps</i>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons">account_circle</i>
+            </div>
+        </div>
+        <!-- Menu lateral -->
+        <div class="menu-lateral">
+            <p> <i class="material-icons">home</i> Início </p>
+            <p> <i class="material-icons">local_fire_department</i> Em alta </p>
+            <p> <i class="material-icons">subscriptions</i> Inscrições</p>
+            <hr>
+            <p> <i class="material-icons">video_library</i> Biblioteca</p>
+            <p> <i class="material-icons">history</i> Histórico</p>
+            <p> <i class="material-icons">slideshow</i> Seus vídeos</p>
+            <p> <i class="material-icons">watch_later</i> Assistir mais tarde</p>
+            <hr>
+            <h3>Inscrições</h3>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-1.jpg"> Curso em Vídeo</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-2.jpg"> Alura Cursos Online</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-3.jpg"> Cellbit</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-4.jpg"> Botão Select</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-5.jpg"> 52Kards</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-6.jpg"> Ciência todo dia</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-7.jpg"> Diolinux</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-8.jpg"> Alan Becker</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-9.jpg"> Antídoto</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-10.jpg"> Coding Artist</p>
+            <p> <img class="inscricoes" src="assets/canais/inscricao-11.jpg"> Guru da Ciência</p>
+        </div>
+        <!-- Grade de videos -->
+        <div class="conteudo">
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-1.png">
+                <!-- titulo -->
+                <div class="video-title">Será que meu código é adequado? React.js ou...</div>
+                <!-- canal -->
+                <div class="video-chanel">Rocketseat</div>
+                <!-- metadata -->
+                <div class="video-data">14.061 visualizações • 22 de out. de 2020</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-2.png">
+                <!-- titulo -->
+                <div class="video-title">UX/UI: Quando design e programação se conectam |...</div>
+                <!-- canal -->
+                <div class="video-chanel">Rocketseat</div>
+                <!-- metadata -->
+                <div class="video-data">2,4 mil visualizações • 22 horas atrás</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-3.png">
+                <!-- titulo -->
+                <div class="video-title">RS@H#12: Ethical Hacker, Segurança em aplicações...</div>
+                <!-- canal -->
+                <div class="video-chanel">Roadsec</div>
+                <!-- metadata -->
+                <div class="video-data">Programado para 04/11/2020 19:00</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-4.png">
+                <!-- titulo -->
+                <div class="video-title">LIVE #038 - Certificação de desenvolvimento de softwa...</div>
+                <!-- canal -->
+                <div class="video-chanel">Acadi-TI - Academia inovadora...</div>
+                <!-- metadata -->
+                <div class="video-data">249 visualizações • Transmitido 1 dia atrás</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-5.png">
+                <!-- titulo -->
+                <div class="video-title">DoWhile2020 – Palco Principal</div>
+                <!-- canal -->
+                <div class="video-chanel">Rocketseat</div>
+                <!-- metadata -->
+                <div class="video-data">1.454 assistindo agora • Transmissão iniciada há 4 horas</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-6.png">
+                <!-- titulo -->
+                <div class="video-title">how i fix errors</div>
+                <!-- canal -->
+                <div class="video-chanel">DaniClips</div>
+                <!-- metadata -->
+                <div class="video-data">148.777 visualizações • 11 de dez. de 2020</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-7.png">
+                <!-- titulo -->
+                <div class="video-title">If Programming Was An Anime</div>
+                <!-- canal -->
+                <div class="video-chanel">Joma Tech</div>
+                <!-- metadata -->
+                <div class="video-data">5.097.833 visualizações • 24 de fev. de 2020</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-8.png">
+                <!-- titulo -->
+                <div class="video-title">we deleted light theme</div>
+                <!-- canal -->
+                <div class="video-chanel">Discord</div>
+                <!-- metadata -->
+                <div class="video-data">1.934.472 visualizações • 31 de mar. de 2019</div>
+            </div>
+            <div class="video-card">
+                <!-- video -->
+                <img src="assets/videos/video-9.png">
+                <!-- titulo -->
+                <div class="video-title">Solving a JavaScript crackme: JS SAFE 2.0 (we..</div>
+                <!-- canal -->
+                <div class="video-chanel">LiveOverflow</div>
+                <!-- metadata -->
+                <div class="video-data">431.519 visualizações • 28 de jun. de 2018</div>
+            </div>
+</body>
